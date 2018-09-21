@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyTAXI</string>
+    <string name="ok">OK</string>
+    <string name="nointernet">Please check your internet connection and try again...</string>
+    <string name="error_getting_data">An error occurred while fetching vehicles data.</string>
+    <string name="error_no_vehicles_found">Sorry, no vehicle found in Hamburg area. Please try after some times.</string>
+    <string name="no_vehicle_data">Sorry, we could not found any vehicle in Hamburg area. Please try again later.</string>
+    <string name="loader_message">Please wait...</string>
+    <string name="cancel">Cancel</string>
+    <string name="screen_title_home">HOME</string>
+    <string name="screen_title_taxi">TAXI</string>
+    <string name="fecthing_address_of_vehicle">Getting address of vehicle...</string>
+    <string name="call_taxi_1">Fast Online Taxi Booking!</string>
+    <string name="call_taxi">CALL TAXI</string>
+    <string name="available_vehicles_in_hamburg_area">Available vehicles in Hamburg area.</string>
+    <string name="exit_confirmation_msg">Do you want to exit from the application?</string>
+    <string name="pooling_taxi">Pooling Taxi</string>
+    <string name="taxi">Taxi</string>
+    <string name="loader_message_getting_data">Getting Vehicle data...</string>
+    <string name="loader_message_getting_locations">Getting vehicle locations...</string>
+    <string name="error_internet_unvailable_message_vehicle_dataload">You are not connected to Internet. <b>Please connect your phone to internet/wifi network and restart application to view available Vehicles in Hamburg area.</b></string>
+    <string name="taxi_list">Taxi-List</string>
+    <string name="taxi_map">Taxi-Map</string>
+
+</resources>

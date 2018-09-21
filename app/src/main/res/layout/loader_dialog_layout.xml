@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@drawable/rounded_white_bg"
+            android:layout_marginStart="30dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="@dimen/general_app_margin"
+            android:layout_marginEnd="30dp"
+            android:layout_height="wrap_content">
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/progressLoader"
+                android:src="@drawable/ic_taxi_gif_loader" />
+
+            <TextView
+                android:id="@+id/loaderMessageTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/loader_message"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+</LinearLayout>

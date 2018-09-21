@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.HomeActivity">
+
+    <include layout="@layout/custom_actionbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#00001a"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:background="@drawable/cover_photo_homescreen"
+            android:orientation="vertical"
+            android:layout_height="0dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/cover_photo"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/internetUnAvailableLL"
+                android:layout_marginStart="48dp"
+                android:visibility="gone"
+                android:layout_marginEnd="48dp"
+                android:background="@drawable/ripple_drawble"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:src="@drawable/ic_no_internet"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/general_app_margin"
+                    android:layout_height="48dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/error_internet_unvailable_message_vehicle_dataload"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="13sp"
+                    android:layout_margin="@dimen/general_app_margin"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/categoryMenuLL"
+                android:layout_height="100dp">
+
+                <LinearLayout
+                    style="@style/style_taxi_category_menu"
+                    android:id="@+id/taxiListLL">
+
+                    <ImageView
+                        style="@style/style_category_menu_icon"
+                        android:src="@drawable/ic_taxi" />
+
+                    <TextView
+                        style="@style/style_category_menu_textview"
+                        android:text="@string/taxi_list" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/style_taxi_category_menu"
+                    android:id="@+id/taxtiOnMapLL"
+                    android:layout_marginStart="80dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_taxis_on_map"
+                        style="@style/style_category_menu_icon" />
+
+                    <TextView
+                        style="@style/style_category_menu_textview"
+                        android:text="@string/taxi_map" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

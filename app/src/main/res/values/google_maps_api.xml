@@ -1,0 +1,52 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=DB:F9:A5:72:08:B2:6D:07:AC:E5:02:65:B1:A7:B2:74:21:33:A5:72%3Bcom.android.mapapp
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    DB:F9:A5:72:08:B2:6D:07:AC:E5:02:65:B1:A7:B2:74:21:33:A5:72
+
+    SHA-1 certificate fingerprint:
+    DB:F9:A5:72:08:B2:6D:07:AC:E5:02:65:B1:A7:B2:74:21:33:A5:72
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+
+
+    *******************************************************************************************
+    GENERAL KEYSTORE WHICH WILL WORK FROM ANY MACHINE WHEN YOU RUN THE APP.
+    TO LOAD THE GOOGLE MAP
+    /*********
+
+    keytool -list -v -keystore /Users/nikunjkapupara/Documents/Andorid_Apps_Workspace/InterviewApps/keystore/myTaxiKeystore.jks -alias mytaxi -storepass mytaxi -keypass mytaxi
+    Alias name: mytaxi
+    Creation date: Sep 13, 2018
+    Entry type: PrivateKeyEntry
+    Certificate chain length: 1
+    Certificate[1]:
+    Owner: CN=Nikunj Kapupara, OU=MyTaxi, O=MyTaxi, L=Germany, ST=Hamburg
+    Issuer: CN=Nikunj Kapupara, OU=MyTaxi, O=MyTaxi, L=Germany, ST=Hamburg
+    Serial number: 561b9160
+    Valid from: Thu Sep 13 15:58:18 IST 2018 until: Mon Sep 07 15:58:18 IST 2043
+    Certificate fingerprints:
+         MD5:  D7:A9:4E:74:EE:CA:42:01:6E:A5:9F:41:7F:91:47:94
+         SHA1: 93:65:C8:AC:71:90:D4:D5:7E:E0:AE:E2:A9:63:DB:01:C4:47:2F:EE
+         SHA256: 4E:44:83:F8:31:36:EA:8D:9F:D2:C4:A0:54:E5:70:1E:9B:B2:45:52:15:40:2F:C5:C1:3B:37:E1:2E:10:DA:EF
+         Signature algorithm name: SHA256withRSA
+         Version: 3
+
+    **********/
+    *******************************************************************************************
+
+
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDyIFgyX29eTmE8aGO_5X_7ZT4illbWnwA</string>
+</resources>

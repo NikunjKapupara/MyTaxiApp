@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!--PRIMARY BUTTON COLOR STATE-->
+    <color name="button_blue_positive">#3b6787</color>
+    <color name="button_blue_pressed">#407c88</color>
+
+    <color name="list_item_pressed">#e6e6e6</color>
+    <color name="loader_bg_color">#f6fcff</color>
+
+    <!--SECONDARY BUTTON COLOR STATE-->
+    <color name="button_white_positive">#ffffff</color>
+    <color name="button_white_pressed">#e0dbdb</color>
+    <color name="yellow_color">#e6e600</color>
+
+</resources>
